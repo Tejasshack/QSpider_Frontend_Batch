@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Mr. John Doe",
+        "gender": "Male",
+        "subjects": ["Mathematics", "Physics"],
+        "qualifications": ["B.Sc", "M.Sc"]
+    },
+    {
+        "name": "Ms. Jane Smith",
+        "gender": "Female",
+        "subjects": ["English", "History"],
+        "qualifications": ["B.A", "M.A"]
+    },
+    {
+        "name": "Dr. Alice Johnson",
+        "gender": "Female",
+        "subjects": ["Biology", "Chemistry"],
+        "qualifications": ["B.Sc", "Ph.D"]
+    },
+    {
+        "name": "Mr. Bob Lee",
+        "gender": "Male",
+        "subjects": ["Computer Science", "Mathematics"],
+        "qualifications": ["B.Tech", "M.Tech"]
+    },
+    {
+        "name": "Ms. Emily Clark",
+        "gender": "Female",
+        "subjects": ["Art", "Design"],
+        "qualifications": ["B.F.A", "M.F.A"]
+    },
+    {
+        "name": "Mr. David Martinez",
+        "gender": "Male",
+        "subjects": ["Geography", "History"],
+        "qualifications": ["B.A", "M.A"]
+    }
+]
+
+[
+    {
+        "name": "Emily Davis",
+        "subjects": ["Mathematics", "Biology"],
+        "address": {
+            "street": "123 Main St",
+            "city": "San Francisco",
+            "pincode": "94101",
+            "state": "CA"
+        }
+    },
+    {
+        "name": "Michael Brown",
+        "subjects": ["Physics", "Chemistry"],
+        "address": {
+            "street": "456 Oak St",
+            "city": "New York",
+            "pincode": "10001",
+            "state": "NY"
+        }
+    },
+    {
+        "name": "Sophia Wilson",
+        "subjects": ["English", "History"],
+        "address": {
+            "street": "789 Pine St",
+            "city": "Chicago",
+            "pincode": "60601",
+            "state": "IL"
+        }
+    },
+    {
+        "name": "James Taylor",
+        "subjects": ["Computer Science", "Mathematics"],
+        "address": {
+            "street": "321 Elm St",
+            "city": "Los Angeles",
+            "pincode": "90001",
+            "state": "CA"
+        }
+    },
+    {
+        "name": "Olivia Martinez",
+        "subjects": ["Art", "Design"],
+        "address": {
+            "street": "654 Maple St",
+            "city": "Houston",
+            "pincode": "77001",
+            "state": "TX"
+        }
+    },
+    {
+        "name": "Liam Johnson",
+        "subjects": ["Geography", "History"],
+        "address": {
+            "street": "987 Birch St",
+            "city": "Philadelphia",
+            "pincode": "19101",
+            "state": "PA"
+        }
+    }
+]

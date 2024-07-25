@@ -1,0 +1,16 @@
+{
+    "name": "John Doe",
+    "sal": 1234.56,
+    "isMarried": false,
+    "skills": {
+        "frontend": ["HTML", "CSS", "JavaScript"],
+        "backend": ["Node.js", "Express"]
+    },
+    "previousEmployers": null,  // Represents a value that is intentionally empty or unknown
+    "hobbies": ["reading", "gaming", "hiking"], // Array of hobbies
+    "contact": {
+        "email": "john.doe@example.com",
+        "phone": "123-456-7890"
+    }
+}
+v
