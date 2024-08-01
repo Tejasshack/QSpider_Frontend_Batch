@@ -1,0 +1,63 @@
+<!-- Explanation of the HTML
+- Document Structure: The <!DOCTYPE html> declaration defines the document as an HTML5 document.
+- Language and Charset: The <html lang="en"> tag specifies the language of the document as English. The <meta charset="UTF-8"> tag sets the character encoding to UTF-8, ensuring proper display of text.
+- Viewport Meta Tag: The <meta name="viewport" content="width=device-width, initial-scale=1.0"> tag ensures the page is responsive on different devices.
+- Title: The <title>Document</title> tag sets the title of the document displayed in the browser tab.
+
+Figure Tag
+- The <figure> tag is used to group content such as images with captions, providing semantic meaning and better accessibility.
+
+First Figure Tag
+- Figcaption: <figcaption>Im The Strongest</figcaption> provides a caption for the image.
+- Image: <img> tag includes:
+  - src: URL of the image.
+  - alt: Alternative text describing the image.
+  - loading="lazy": Enables lazy loading, deferring image loading until it is needed.
+  - width and height: Specifies the dimensions of the image.
+
+Second Figure Tag
+- Figcaption: <figcaption>Demon Slayer Tanjiro</figcaption> provides a caption for the image.
+- Image: <img> tag includes:
+  - src: Relative path to the image.
+  - alt: Alternative text describing the image.
+  - title: Provides additional information about the image, shown as a tooltip.
+  - loading="lazy": Enables lazy loading, deferring image loading until it is needed.
+  - width and height: Specifies the dimensions of the image.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Using the <figure> tag to group content that forms an illustration -->
+
+    <!-- Figure tag with an external image link -->
+    <figure>
+        <!-- Figcaption provides a caption or title for the image -->
+        <figcaption>Im The Strongest</figcaption>
+        <!-- Image with an external link, dimensions specified, and lazy loading enabled -->
+        <img src="https://www.xtrafondos.com/wallpapers/satoru-gojo-jujutsu-kaisen-7798.jpg" 
+             alt="satoru-gojo-jujutsu-kaisen-7798" 
+             loading="lazy" 
+             width="300px" 
+             height="200px">
+    </figure>
+
+    <!-- Figure tag with an image using a relative path -->
+
+    <figure>
+        <!-- Figcaption provides a caption or title for the image -->
+        <figcaption>Demon Slayer Tanjiro</figcaption>
+        <!-- Image with a relative path, dimensions specified, title attribute, and lazy loading enabled -->
+        <img src="./assests/tanjiro.jpg" 
+             alt="tanjiro"  
+             width="300px" 
+             height="200px" 
+             title="Demon Slayer" 
+             loading="lazy">
+    </figure>
+</body>
+</html>
