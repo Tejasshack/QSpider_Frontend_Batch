@@ -25,6 +25,7 @@ This repository contains the complete syllabus for Frontend Development focusing
 - Forms and Input Elements
 - Semantic HTML
 - HTML5 Features
+- Media Tags
 
 ## CSS
 
