@@ -1,0 +1,17 @@
+.div1 {
+    color: orange;
+
+}
+
+#div2 {
+    color: violet;
+}
+
+
+* {
+    font-size: 20px;
+}
+
+div , span {
+    color: red;
+}

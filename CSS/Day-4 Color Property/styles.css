@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+    color: rgba(0, 0, 0, 0.35);
+}
+div{
+    place-items: center;
+    color: #3a5a40;
+    
+}

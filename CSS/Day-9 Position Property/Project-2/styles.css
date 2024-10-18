@@ -1,0 +1,11 @@
+.card .content  p{
+color : cyan;
+text-align: justify;
+font-size: 22px;
+padding: 10px 0 20px;
+margin-bottom: 15px;
+}
+
+.card .content a{
+
+}
